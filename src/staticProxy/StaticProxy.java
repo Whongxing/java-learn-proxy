@@ -3,10 +3,10 @@ package staticProxy;
 /**
  * 代理类，代理小明去买西瓜
  */
-public class Proxy implements BuyXiGuaProxy {
+public class StaticProxy implements BuyXiGuaProxy {
     private BuyXiGuaProxyImpl a;
 
-    public Proxy(BuyXiGuaProxyImpl a) {
+    public StaticProxy(BuyXiGuaProxyImpl a) {
         this.a = a;
     }
 
