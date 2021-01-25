@@ -16,3 +16,5 @@ Java代理Demo初始化
   
   # 动态代理
   
+    ## 代理对象实现InvocationHandler,调用method.invoke(Object对象，第三个参数);
+  
